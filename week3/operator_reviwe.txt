@@ -1,0 +1,46 @@
+equal operator: is assigns something to a variabale
+=
+
+if weather == ,rain, it compares the variable weather to the string ,rain,
+==
+
+if weather !=  ,rain, it compares the same but this time it will only become true if its not the same
+!=
+
+
+
+for example
+age = 1 
+age > 5
+this will be false cause age contains 1 and 1 is not greater than 5.
+>
+
+
+for example
+age = 1
+age < 5 
+this will be true cause 1 is lesser than 5
+<
+
+for example
+age = 5
+age >= 7
+this will be false cause 5 is less than 7
+if its the same number
+for example
+age = 5
+age >= 5
+ this will be true cause 5 and 5 are equal
+>=
+
+
+for example
+age = 5
+age <= 7
+this will be true cause 5 is less than 7
+if its the same number
+for example
+age = 5
+age <= 5
+ this will be true cause 5 and 5 are equal
+<=

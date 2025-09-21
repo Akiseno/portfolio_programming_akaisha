@@ -1,0 +1,15 @@
+pet = input("Do you have a pet? (yes/no: ")
+if pet.capitalize() == "yes":
+    pet_name = input("What is your pet's name? ")
+    pet_age = input("What is your pet's age? ")
+    pet_type = input("What is your pet's type? ")
+    pet_color = input("What is your pet's color? ")
+    pet_breed = input("What is your pet's breed? ")
+    pet_gender = input("What is your pet's gender? ")
+    pet_owner = input("What is your pet's owner? ")
+    print("Your dog's name is", pet_name, "and it is", pet_age, "years old")
+    print("Your dog's type is", pet_type, "and it is", pet_color, "color")
+    print("Your dog's breed is", pet_breed, "and it is", pet_gender, "gender")
+    print("Your dog's owner is", pet_owner)
+else:
+    print("You do not have a pet")
