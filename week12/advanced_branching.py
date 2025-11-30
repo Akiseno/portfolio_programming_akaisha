@@ -38,7 +38,7 @@ def adventure_castle():
             print("You nervously pull out a fake ID you prepared earlier.")
             print("The guard examines it carefully, squinting at the details.")
             print("After a tense moment, he nods and says, 'Everything seems in order.'")
-            print("The guards think your a guard aswell dues to your fake ID so they give you a key to the castle rooms.")
+            print("The guards think your a guard aswell due to your fake ID so they give you a key to the castle rooms.")
             print("The guards step aside and allow you to pass through the main gate.")
             print("You breathe a sigh of relief as you enter the main hall.")
             game_state.score += 20
