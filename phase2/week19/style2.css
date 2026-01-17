@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(212, 174, 255);
+}
+
+h1 {
+    color: rgb(116, 34, 187);
+    font-family: "Cherry Cream Soda", system-ui;
+}
+
+table {
+    color: purple
+}
+
+h2 {
+    color: blueviolet;
+    font-family: "DynaPuff", system-ui;
+  }
+
+section {
+    color: cornflowerblue
+}
+
+.food-category {
+    border: 2px solid rgb(163, 0, 204);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.breakfast h3 {
+    color: #8134a8;
+}
+
+.lunch h3 {
+    color: #7000cc;
+}
+
+.dinner h3 {
+    color: #6e30ff;
+}
+
+a:hover {
+    color: rgb(255, 111, 0);
+    font-weight: bold;
+}
