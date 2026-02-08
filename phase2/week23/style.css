@@ -1,0 +1,56 @@
+body {
+  background-color: #717c89;
+  font-family: "Minecraft";
+  text-align: center;
+  padding-top: 50px;
+}
+.question {
+  background-color: #8aa2a9;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 100px;
+  width: 300px;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+}
+button {
+  padding: 10px 20px;
+  background-color: #90baad;
+  color: #a1e5ab;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #8aa2a9;
+}
+.correct {
+  color: #a1e5ab;
+  font-weight: bold;
+}
+.incorrect {
+  color: brown;
+  font-weight: bold;
+}
+input.error {
+  border: 2px solid brown;
+}
+input.success {
+  border: 2px solid green;
+}
+.input {
+  border-radius: 100px;
+}
+.reset {
+    background-color: rgb(143, 63, 63);
+    color: rgb(66, 0, 0);
+}
+.reset:hover {
+    background-color: #8b1313;
+}
+.submit {
+    background-color: #4c7a4e;
+    color: rgb(1, 84, 0);
+}
+.submit:hover {
+    background-color: #517353;
+}

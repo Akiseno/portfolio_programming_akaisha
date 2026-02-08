@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>My Quiz</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Minecraft Quiz</h1>
+        <div class="question">
+            <p>What is the best ore in Minecraft?</p>
+            <input class="input" type="text" id="q1">
+            <p id="feedback1" class="feedback"></p>
+        </div>
+        <div class="question">
+            <p>What potion triggers the trial omen?</p>
+            <input class="input" type="text" id="q2">
+            <p id="feedback2" class="feedback"></p>
+        </div>
+        <div class="question">
+            <p>What biome is the Warden in?</p>
+            <input class="input" type="text" id="q3"> 
+            <p id="feedback3" class="feedback"></p> 
+        </div>
+        <div class="question">
+            <p>What biome is the Rusty Wolf in?</p>
+            <input class="input" type="text" id="q4"> 
+            <p id="feedback4" class="feedback"></p> 
+        </div>
+        <div class="question">
+            <p>What biome is the Striped Wolf in?</p>
+            <input class="input" type="text" id="q5"> 
+            <p id="feedback5" class="feedback"></p> 
+        </div>
+        <button class="submit" onclick="checkAnswers()">
+            submit
+        </button>
+        <button class="reset" onclick="resetGame()">
+            reset
+        </button>
+        <h2 id="result">results</h2>
+        
+        
+        
+
+    </body>
+</html>
