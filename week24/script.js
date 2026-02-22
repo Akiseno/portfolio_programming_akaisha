@@ -19,50 +19,60 @@ function checkAnswers() {
 
   if (a1 === "netherite") {
     feedback1.innerHTML = "correct";
+    feedback1.classList.remove("incorrect");
     feedback1.classList.add("correct");
     score = score + 1;
   } else {
     feedback1.innerHTML = "incorrect";
+    feedback1.classList.remove("correct");
     feedback1.classList.add("incorrect");
   }
   console.log(score);
 
   if (a2 === "ominous bottle") {
     feedback2.innerHTML = "correct";
+    feedback2.classList.remove("incorrect");
     feedback2.classList.add("correct");
     score = score + 1;
   } else {
     feedback2.innerHTML = "incorrect";
+    feedback2.classList.remove("correct");
     feedback2.classList.add("incorrect");
   }
   console.log(score);
 
   if (a3 === "deep dark") {
     feedback3.innerHTML = "correct";
+    feedback3.classList.remove("incorrect");
     feedback3.classList.add("correct");
     score = score + 1;
   } else {
     feedback3.innerHTML = "incorrect";
+    feedback3.classList.remove("correct");
     feedback3.classList.add("incorrect");
   }
   console.log(score);
 
   if (a4 === "sparsed jungle") {
     feedback4.innerHTML = "correct";
+    feedback4.classList.remove("incorrect");
     feedback4.classList.add("correct");
     score = score + 1;
   } else {
     feedback4.innerHTML = "incorrect";
+    feedback4.classList.remove("correct");
     feedback4.classList.add("incorrect");
   }
   console.log(score);
 
   if (a5 === "wooded badlands") {
     feedback5.innerHTML = "correct";
+    feedback5.classList.remove("incorrect");
     feedback5.classList.add("correct");
     score = score + 1;
   } else {
     feedback5.innerHTML = "incorrect";
+    feedback5.classList.remove("correct");
     feedback5.classList.add("incorrect");
   }
   console.log(score);
@@ -87,11 +97,12 @@ function resetGame() {
   document.getElementById("q4").value = "";
   document.getElementById("q5").value = "";
 
-  document.getElementById("feedback1").innerHTML = "";
-  document.getElementById("feedback2").innerHTML = "";
-  document.getElementById("feedback3").innerHTML = "";
-  document.getElementById("feedback4").innerHTML = "";
-  document.getElementById("feedback5").innerHTML = "";
+  let feedbacks = ["feedback1", "feedback2", "feedback3", "feedback4", "feedback5"];
+  feedbacks.forEach(function (id) {
+    let el = document.getElementById(id);
+    el.innerHTML = "";
+    el.classList.remove("correct", "incorrect");
+  });
 
   document.getElementById("result").innerHTML = "";
 }
