@@ -27,7 +27,7 @@ function checkAnswers() {
   }
   console.log(score);
 
-  if (a2 === "ominous potion") {
+  if (a2 === "ominous bottle") {
     feedback2.innerHTML = "correct";
     feedback2.classList.add("correct");
     score = score + 1;
