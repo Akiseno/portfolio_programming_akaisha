@@ -1,0 +1,52 @@
+body {
+  background-color: #b8dbd9;
+  font-family: "Kidmania Trial";
+}
+h1 {
+  color: #586f7c;
+  text-align: center;
+  font-size: 5rem;
+}
+input {
+  width: 14rem;
+  border: 3px solid #658e9c;
+  border-radius: 100px;
+  height: 3.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Kidmania Trial";
+  
+}
+button {
+  border: 3px solid #597b8d;
+  background-color: #8cacbe;
+  border-radius: 100px;
+  color: #435d6a;
+  font-size: 1.1rem;
+  height: 4rem;
+  font-family: "Kidmania Trial";
+}
+.input-area {
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+ul {
+  width: 300px;
+  margin: auto;
+}
+li {
+  background: #8cacbe;
+  color:#586f7c;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(red, green, blue, alpha);
+  text-align: left;
+}
+p {
+    text-align: center;
+    font-size: 2rem;
+    color: #586f7c;
+    font-family: "Showpop";
+}
